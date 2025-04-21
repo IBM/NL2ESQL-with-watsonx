@@ -8,7 +8,7 @@ Ever wondered how to tap into the power of Elasticsearch without wrestling with 
 ### clone the repo
 
 ```bash
-git clone <placeholder for public repo>
+git clone https://github.com/IBM/NL2ESQL-with-watsonx.git
 ```
 
 ### Elastic Search Setup 
