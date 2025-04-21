@@ -1,0 +1,184 @@
+[
+    {
+        "field_name": "EmployeeType",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "This field categorizes employees based on their employment status, indicating whether they work on a part-time, full-time, or contract basis.",
+        "sample_value": "Part-Time, Full-Time, Contract"
+    },
+    {
+        "field_name": "EmployeeStatus",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The current employment status of an employee, indicating whether they are active, on leave, terminated, or have a future start date.",
+        "sample_value": "Future Start, Active, Leave of Absence, Voluntarily Terminated, Terminated for Cause"
+    },
+    {
+        "field_name": "Current Employee Rating",
+        "index_name": "employee_data",
+        "data_type": "integer",
+        "natural_language_description": "This field represents the current performance rating of an employee on a scale of 1 to 5, where 1 is the lowest and 5 is the highest.",
+        "sample_value": "1, 2, 3, 4, 5"
+    },
+    {
+        "field_name": "BusinessUnit",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The BusinessUnit field represents the specific business unit or department to which an employee belongs within the organization, identified by a unique abbreviation or code.",
+        "sample_value": "EW, CCDR, NEL, PYZ, TNS, PL, MSC, SVG, WBL, BPC"
+    },
+    {
+        "field_name": "DepartmentType",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The DepartmentType field categorizes employees based on the department they belong to within the organization, providing a way to differentiate between various sectors such as IT, administration, production, and more.",
+        "sample_value": "IT/IS, Executive Office, Production, Admin Offices, Software Engineering, Sales"
+    },
+    {
+        "field_name": "Division",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "The Division field categorizes employees into their respective departments or teams within the organization, such as engineering, finance, operations, or management, to facilitate filtering, grouping, and analysis of employee data by departmental affiliation.",
+        "sample_value": "People Services, Billable Consultants, General - Sga, Field Operations, General - Con, Engineers, Shop (Fleet), General - Eng, Aerial, Technology / It, Splicing, Finance & Accounting, Corp Operations, Project Management - Con, Underground, Yard (Material Handling), Executive, Catv, Fielders, Wireless"
+    },
+    {
+        "field_name": "EmpID",
+        "index_name": "employee_data",
+        "data_type": "integer",
+        "natural_language_description": "A unique identifier assigned to each employee, represented as a sequential integer value.",
+        "sample_value": "1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020"
+    },
+    {
+        "field_name": "GenderCode",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The GenderCode field stores the gender of an employee, categorized as either Male or Female, providing a way to track and analyze employee demographics.",
+        "sample_value": "Male, Female"
+    },
+    {
+        "field_name": "DOB",
+        "index_name": "employee_data",
+        "data_type": "date",
+        "natural_language_description": "The DOB field represents the date of birth of an employee, stored as a Unix timestamp in milliseconds, which can be converted to a human-readable date format for easier interpretation.",
+        "sample_value": "-875404800000, -798508800000, -862617600000, -796262400000, -565228800000, -373593600000, -535852800000, -496627200000, -388627200000, -570585600000, -630374400000, 933897600000, 589766400000, 294796800000, 373420800000, 815702400000, 668217600000, -873072000000, -380937600000, -436233600000"
+    },
+    {
+        "field_name": "LastName",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "The LastName field stores the surname of an employee, typically used for identification and organizational purposes.",
+        "sample_value": "Saada, Kidd, Punjabhi, Mitchell, Roman, Adinolfi, Mangal, Mckinney, Mathis, Galia, Davila, Walter, Monkfish, Allison, Pollard, Hebert, Immediato, Winters, Peck, Frank"
+    },
+    {
+        "field_name": "FirstName",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "The FirstName field stores the first name of an employee, containing a variety of given names from different cultural backgrounds, represented as text.",
+        "sample_value": "Liam, Kiersten, Walter, Marlon, Natalie, Jagger, Neveah, Ansley, Arabella, Yadiel, Fernanda, Dangelo, Emilio, Kieran, Kimora, Savion, Alina, Charity, Ruben, Lorenzo"
+    },
+    {
+        "field_name": "PayZone",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The PayZone field categorizes employees based on their pay zones, which are geographical or administrative areas that determine salary scales or compensation packages.",
+        "sample_value": "Zone B, Zone C, Zone A"
+    },
+    {
+        "field_name": "MaritalDesc",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The MaritalDesc field stores an employee's marital status as a categorical value, indicating whether they are married, single, divorced, or widowed.",
+        "sample_value": "Widowed, Married, Single, Divorced"
+    },
+    {
+        "field_name": "JobFunctionDescription",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "This field contains a textual description of an employee's job function or role within the organization, providing information about the specific position or title they hold.",
+        "sample_value": "Recruiting, Helper, Safety Manager, Vp, Analyst, Purchasing, Welder, Project Manager, Driver, Cfo, Recruiter, Chief Operating Officer, Tower Hand, Support, Cpo, Ceo, Engineer, Director, Svp, Electrician"
+    },
+    {
+        "field_name": "ADEmail",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The ADEmail field stores the Active Directory email addresses of employees, which are used for authentication and communication purposes within the organization.",
+        "sample_value": "juliana.dyer@bilearner.com, julia.lawrence@bilearner.com, gunnar.gray@bilearner.com, simeon.roy@bilearner.com, brady.yoder@bilearner.com, deshawn.henry@bilearner.com, ernest.munoz@bilearner.com, lamar.kirk@bilearner.com, kenna.porter@bilearner.com, binh.le@bilearner.com, lindsay.pennington@bilearner.com, henry.pratt@bilearner.com, giovanna.romero@bilearner.com, zariah.castaneda@bilearner.com, annabelle.marquez@bilearner.com, areli.torres@bilearner.com, emanuel.george@bilearner.com, lia.orr@bilearner.com, alayna.hess@bilearner.com, rhys.barry@bilearner.com"
+    },
+    {
+        "field_name": "ExitDate",
+        "index_name": "employee_data",
+        "data_type": "date",
+        "natural_language_description": "The ExitDate field represents the date when an employee left the organization, stored as a Unix timestamp in milliseconds, indicating the number of milliseconds that have elapsed since January 1, 1970, at 00:00:00 UTC.",
+        "sample_value": "1688256000000, 1679443200000, 1690502400000, 1690675200000, 1662163200000, 1676160000000, 1689292800000, 1617062400000, 1617753600000, 1602201600000, 1625702400000, 1670976000000, 1582070400000, 1598659200000, 1620777600000, 1642896000000, 1648425600000, 1670544000000, 1611878400000, 1631836800000"
+    },
+    {
+        "field_name": "RaceDesc",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "A field describing the racial or ethnic category of an employee, providing a categorical representation of their racial identity.",
+        "sample_value": "Asian, White, Black, Other, Hispanic"
+    },
+    {
+        "field_name": "LocationCode",
+        "index_name": "employee_data",
+        "data_type": "integer",
+        "natural_language_description": "The LocationCode field represents a unique numerical identifier for different geographic locations where employees are based, possibly corresponding to specific office locations, cities, or regions within the organization.",
+        "sample_value": "8196, 81928, 49168, 81938, 24597, 24605, 8223, 16416, 16422, 32806, 32811, 73772, 73771, 57392, 32823, 41016, 24637, 24639, 16451, 73798"
+    },
+    {
+        "field_name": "State",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The State field represents the U.S. state where an employee is located, stored as a two-letter abbreviation (e.g., VA for Virginia, CA for California).",
+        "sample_value": "VA, AL, GA, ME, PA, ND, RI, UT, TN, IN, WA, OH, MT, NY, MA, NV, KY, AZ, FL, CA"
+    },
+    {
+        "field_name": "TerminationType",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "The type of termination an employee experienced, indicating whether the employee left the company voluntarily or involuntarily, or if the reason for termination is unknown, due to retirement, or resignation.",
+        "sample_value": "Involuntary, Voluntary, Unk, Retirement, Resignation"
+    },
+    {
+        "field_name": "Supervisor",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "The name of the supervisor of an employee, typically including first and last names, and sometimes professional titles.",
+        "sample_value": "Nancy Cruz, Jessica Lawson, Melissa Scott, Brittany Olson, Kristin White, Benjamin Cantrell, Matthew Calderon DDS, Melinda Davidson, Timothy Kidd, Shannon Klein, Amber Rocha, Olivia Barton, Christina Young, Michelle King, Victoria Jacobs, Amanda Perez, Denise Adams, Christine Randall, Gerald Carey, Madeline Henderson"
+    },
+    {
+        "field_name": "Title",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "The Title field represents the job title or position held by an employee within the organization, providing information about their role, level of seniority, and area of expertise.",
+        "sample_value": "Production Technician I, IT Manager - DB, Software Engineer, Accountant I, BI Director, Production Manager, Administrative Assistant, CIO, Area Sales Manager, BI Developer, Senior BI Developer, Production Technician II, Network Engineer, Sr. Network Engineer, Enterprise Architect, Sr. Accountant, Sales Manager, IT Support, Database Administrator, Shared Services Manager"
+    },
+    {
+        "field_name": "StartDate",
+        "index_name": "employee_data",
+        "data_type": "date",
+        "natural_language_description": "The StartDate field represents the date when an employee started working, stored as a Unix timestamp in milliseconds, indicating the number of milliseconds that have elapsed since January 1, 1970, at 00:00:00 UTC.",
+        "sample_value": "1668556800000, 1537228800000, 1592524800000, 1602201600000, 1542758400000, 1553126400000, 1651276800000, 1611878400000, 1572480000000, 1670630400000, 1570406400000, 1587600000000, 1609718400000, 1626912000000, 1560556800000, 1538438400000, 1671148800000, 1688342400000, 1666224000000, 1555632000000"
+    },
+    {
+        "field_name": "TerminationDescription",
+        "index_name": "employee_data",
+        "data_type": "text",
+        "natural_language_description": "The TerminationDescription field appears to contain unstructured text data that may be related to the reasons or circumstances surrounding an employee's termination. However, the provided sample values seem to be nonsensical and lack coherence, suggesting that the data may be corrupted, placeholder text, or not properly formatted. In a typical scenario, this field would hold descriptive text explaining why an employee's contract was terminated, but the current data does not provide meaningful insights.",
+        "sample_value": "Church happen network dog kid thought., National detail star recently., Together three executive compare., Product key its something. Yourself pay anyone., Gas also suffer air support size make., Base item do role debate perform., Easy film last fact discuss. Enough worker wall., Social operation specific personal matter beyond., Stock indeed about brother campaign., Sound modern feel special me fish produce., End trouble tonight amount page reach debate., Cup arm drug place level table staff., Majority wide enjoy how., North rise until plan join., Stock professor pattern turn attention news., Choose list of all nor stock., Left how maintain structure these enter kitchen., Maintain material discover discover., Lawyer suggest cultural blue yes camera daughter., Reduce subject positive war score interesting."
+    },
+    {
+        "field_name": "EmployeeClassificationType",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "This field categorizes employees based on their employment status, indicating whether they are working part-time, full-time, or on a temporary basis.",
+        "sample_value": "Part-Time, Full-Time, Temporary"
+    },
+    {
+        "field_name": "Performance Score",
+        "index_name": "employee_data",
+        "data_type": "keyword",
+        "natural_language_description": "This field represents an employee's performance evaluation, categorizing their work into distinct levels such as Needs Improvement, Exceeds, Performance Improvement Plan (PIP), or Fully Meets expectations.",
+        "sample_value": "Needs Improvement, Exceeds, PIP, Fully Meets"
+    }
+]
