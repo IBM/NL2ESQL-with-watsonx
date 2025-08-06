@@ -63,7 +63,7 @@ python-dotenv==1.0.1
 pytz==2025.1
 pyzmq==26.2.1
 referencing==0.36.2
-requests==2.32.2
+requests==2.32.4
 rpds-py==0.23.1
 six==1.17.0
 smmap==5.0.2
