@@ -12,7 +12,7 @@ click==8.1.8
 comm==0.2.2
 debugpy==1.8.12
 decorator==5.2.1
-elastic-transport==8.17.0
+elastic-transport==8.17.1
 elasticsearch==8.17.1
 executing==2.2.0
 gitdb==4.0.12
