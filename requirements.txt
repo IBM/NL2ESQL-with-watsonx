@@ -2,7 +2,7 @@ altair==5.5.0
 annotated-types==0.7.0
 anyio==4.8.0
 appnope==0.1.4
-asttokens==3.0.0
+asttokens==3.0.2
 attrs==25.3.0
 blinker==1.9.0
 cachetools==5.5.2
