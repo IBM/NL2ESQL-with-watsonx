@@ -44,7 +44,7 @@ nest-asyncio==1.6.0
 numpy==1.26.4
 packaging==24.2
 pandas==2.1.4
-parso==0.8.4
+parso==0.8.7
 pexpect==4.9.0
 pillow==11.1.0
 platformdirs==4.3.6
